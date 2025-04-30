@@ -1,0 +1,101 @@
+
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #a18cd1, #fbc2eb);
+  margin: 0;
+  padding: 0;
+  color: #2d024d;
+}
+
+.book-search-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #6a0dad;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+input[type="text"] {
+  padding: 0.6rem 1rem;
+  border: 2px solid #d46eff;
+  border-radius: 8px;
+  width: 60%;
+  font-size: 1rem;
+}
+
+button {
+  background-color: #ff69b4;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #e754a6;
+}
+
+input[type="file"] {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 1rem;
+  width: 160px;
+  text-align: center;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+li:hover {
+  transform: translateY(-5px);
+}
+
+img {
+  width: 100px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 0.5rem;
+  border-radius: 6px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.pagination button {
+  margin: 0 1rem;
+}
